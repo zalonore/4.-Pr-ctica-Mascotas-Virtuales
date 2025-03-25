@@ -26,11 +26,13 @@ Tu reto como programador es construir un sistema que simule la lógica principal
 
 ### Contexto
 
-Cada usuario registrado en PixelPets puede adoptar múltiples mascotas virtuales. Las mascotas tienen un nombre, un nivel de energía, una edad y un estado emocional. También pueden aprender habilidades específicas, como bailar, buscar objetos, o incluso comunicarse con emojis. Estas habilidades se desbloquean con el tiempo o con experiencia ganada.
+Cada usuario registrado en PixelPets puede adoptar múltiples mascotas virtuales. Las mascotas tienen un nombre, un nivel de energía, un estado de salud (sano, regular, enfermo y muy enfermo) una edad y un estado emocional (Registra al menos 3 estados emocionales). También pueden aprender habilidades específicas, como bailar, buscar objetos, o incluso comunicarse con emojis. Estas habilidades se desbloquean con experiencia ganada.
 
-Además, la tienda ofrece objetos digitales (como snacks, juguetes, pociones) que los usuarios pueden usar para mejorar la salud, felicidad o energía de sus mascotas. Cada objeto tiene un tipo y un efecto especial.
+Además, la tienda ofrece objetos digitales (registra por lo menos 8, ejemplos pueden ser snacks, juguetes, pociones) que los usuarios pueden usar para mejorar la salud, o estado emocional de sus mascotas. Cada objeto tiene un tipo y un efecto especial.
 
-La plataforma también lleva registro de los cuidados realizados a cada mascota (por ejemplo: cuándo fue alimentada, qué juguete se le dio, etc.). Los usuarios pueden consultar un historial de actividades por mascota.
+La plataforma también lleva registro de los cuidados realizados a cada mascota (por ejemplo: Cuantas veces fue alimentada, estados de salud que ha tenido, qué objeto se le dio, etc.). 
+
+Los usuarios pueden consultar un historial de actividades (cuidados) de una mascota.
 
 ---
 
