@@ -67,7 +67,8 @@ Los usuarios pueden consultar un historial de actividades (cuidados) de una masc
 
 ## Reglas
 
-- No se permite el uso de herencia ni polimorfismo.
+- El diagrama UML debe tener coherencia con el código que lo implementa
+- Cada clase debe tener un archivo .h y un archivo .cpp
 - Todo debe manejarse mediante clases básicas, relaciones con apuntadores, vectores y mapas.
 - Implementa la lógica de manera que cada clase sea responsable solo de su propia información (buen diseño de responsabilidades).
 - Crea al menos 3 usuarios y 5 mascotas diferentes para probar tu sistema.
@@ -98,4 +99,4 @@ Si terminas antes del tiempo límite, intenta agregar una función que **guarde 
 
 ---
 
-¡Diviértete creando tu propio universo de mascotas virtuales y demuestra tus habilidades con la programación orientada a objetos!
+Recuerda que la actividad puede realizarse en parejas, encuentra alguien te que complemente y multipliquen sus conocimientos
