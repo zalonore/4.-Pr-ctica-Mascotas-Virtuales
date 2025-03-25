@@ -40,27 +40,27 @@ Los usuarios pueden consultar un historial de actividades (cuidados) de una masc
 
 ### 1. **Análisis del caso**
 - Identifica al menos **6 clases** necesarias para modelar este sistema.  
-- Define los **atributos** y **métodos** de cada clase.  
-- Determina qué clases se relacionan entre sí y cómo (¿quién tiene una lista de qué?).  
-- Establece si las relaciones son 1 a 1, 1 a muchos o muchos a muchos.  
+- Define los **atributos**, **métodos** y **relaciones** de cada clase.  
+- Determina qué clases se relacionan entre sí (asociación y agregación) y cómo ¿quién tiene unun contenedor de qué?.  
 - Determina en qué casos necesitarías **apuntadores a objetos** para permitir la interacción entre clases.
 
 ### 2. **Diseño UML**
 - Dibuja el **diagrama de clases UML** del sistema, representando:
   - Clases con sus atributos y métodos.
   - Relaciones entre clases (asociaciones y agregaciones).
-  - Multiplicidades donde sea necesario.
+  - El dibujo puedes hacerlo en una app o a mano, pero debe respetar toda la sintaxis de UML.
 
 ### 3. **Implementación en C++**
 - Implementa las clases diseñadas.
-- Usa `std::map` para relacionar usuarios con sus mascotas.
-- Usa `std::vector` para guardar habilidades, historial de cuidados u objetos.
-- Usa **apuntadores** entre clases donde sea necesario (por ejemplo, una mascota apunta a sus habilidades).
+- Usa un contenedor asociativo como `map` para relacionar usuarios con sus mascotas.
+- Usa un contendor secuencial como `vector` para guardar habilidades, historial de cuidados u objetos.
+- Usa **apuntadores** entre clases donde sea necesario (por ejemplo, una mascotas que pasan a otras funciones y queremos que se conserven los cambios que tuvo).
 - Crea un menú por consola que permita:
   - Registrar nuevos usuarios.
   - Adoptar nuevas mascotas.
-  - Aplicar objetos a las mascotas.
+  - Brindar objetos a las mascotas.
   - Enseñar habilidades a las mascotas.
+  - Aumentar experiencia de una mascota (manual o aleatorio)
   - Consultar el historial de una mascota.
 
 ---
