@@ -14,7 +14,7 @@ Tu reto como programador es construir un sistema que simule la lógica principal
 ## Objetivos
 
 - Analizar un caso de estudio para identificar **clases**, **atributos**, **relaciones** y **responsabilidades**.
-- Diseñar un diagrama de clases UML con al menos.
+- Diseñar un diagrama de clases UML.
 - Implementar en C++ el código que implemente el diseño creado en UML, usando:
   - Contenedores `vector` y `map`.
   - Apuntadores para relacionar objetos entre clases en caso de ser necesario.
